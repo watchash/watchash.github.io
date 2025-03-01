@@ -3,18 +3,21 @@ project:
   output-dir: docs
 
 website:
-  title: "watchash.github.io"
+  title: "Watchash"
   navbar:
+    title: false
+    logo: media/logo.png
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+#      - about.qmd
 
 format:
   html:
-    theme: cosmo
+    theme: sandstone
     css: styles.css
     toc: true
+    page-layout: full
 
 editor: visual
 

@@ -1,11 +1,14 @@
 ---
-title: "watchash.github.io"
+title: "Watchash"
+toc: false
+about: 
+  image: media/dogmoon.png
+  template: jolla
+  image-shape: round
+  image-width: 20em
+  links:
+    - icon: github
+      href: https://github.com/watchash
 ---
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
-```
+Ian, stats working in pharmaceutical company ...
