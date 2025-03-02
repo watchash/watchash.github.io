@@ -1,0 +1,10 @@
+---
+title: "posts"
+subtitle: "miscellanea about work and life ..."
+listing: 
+  contents: posts 
+  type: default 
+  sort: "date desc" 
+  categories: true
+  max-description-length: 175
+---

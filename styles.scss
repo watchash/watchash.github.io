@@ -1,0 +1,87 @@
+/*-- scss:defaults --*/
+
+// font
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400..700;1,400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+$gelasio: "Gelasio", serif;
+$nunito: 'Nunito', sans-serif; 
+
+// Colors
+$cream: #fdfbf0;
+$gray: 	#b0b0b0;
+$light-blue: #d3efff;
+$black: #0b1419;
+$white: #ffffff;
+$orange: orange;
+$red: #800020;
+
+// Base document colors
+$navbar-bg: $gray; // navbar
+$navbar-fg: $black; // navbar foreground elements
+$navbar-hl: $red; // highlight color when hovering over navbar links
+$body-bg: $cream; // page background 
+$body-color: $black; // page text 
+$footer-bg: $gray; // footer 
+
+
+/*-- scss:rules --*/
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $gelasio;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+body {
+  font-family: $nunito;
+  line-height: 1.2; 
+  font-size: 19.5px;
+  font-weight: 350;
+}
+
+.title {
+  color: $red;
+}
+
+.menu-text {
+  color: $white;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.menu-text:hover {
+  color: $red;
+}
+
+.nav-link {
+  padding-bottom: 5px;
+}
+
+// special text
+.small-text {
+  font-size: 17px;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.orange-text {
+  color: $orange;
+}
+
+
+// navbar logo
+.navbar-brand img { 
+  max-height: 45px;
+  width: auto;
+}
+
+// animate logo (rises on hover; HT Briana Barajas :) https://github.com/briana-barajas/briana-barajas.github.io/blob/main/styles.scss )
+.navbar-logo {
+  transition: all 0.3s;
+}
+
+.navbar-logo:hover {
+  transform: translateY(-4px);
+}

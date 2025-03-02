@@ -4,18 +4,31 @@ project:
 
 website:
   title: "Watchash"
+  favicon: media/logo.png
   navbar:
     title: false
     logo: media/logo.png
-    left:
+    right:
       - href: index.qmd
         text: Home
 #      - about.qmd
+      - href: posts.qmd
+        text: Posts
+      - icon: github 
+        href: https://github.com/watchash
+        target: _blank
+        
+  page-footer:
+    background: dark
+    left: "© 2025 Ian DENG"
+    right: This website is built with [{{< fa brands r-project title="R Project" >}}](https://www.r-project.org/about.html){target=_blank} and [Quarto](https://quarto.org/){target=_blank}
 
 format:
   html:
-    theme: sandstone
-    css: styles.css
+    theme: 
+      - sandstone
+      - styles.scss
+    mainfont: Nunito
     toc: true
     page-layout: full
 

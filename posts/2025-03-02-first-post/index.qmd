@@ -1,0 +1,16 @@
+---
+title: "Hello blog !"
+description: "The first hello to the world of blog ..."
+date: 03-02-2025
+categories: [hello]
+citation: 
+  url: https://watchash.github.io/posts/2025-03-02-first-post/ 
+image: dogmoon.png
+draft: false
+---
+
+## Hello 
+
+Just the first blog to mark a newb to blog...
+
+Hopefully I could find content to write, no an easy task :/
